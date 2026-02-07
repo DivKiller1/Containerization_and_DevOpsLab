@@ -25,7 +25,7 @@
 | 🔬 Lab | 📎 Link |
 |--------|---------|
 | LAB-1 | 👉 [Open LAB-1](./LAB-1) |
-| LAB-2 | 👉 [Open LAB-2](./LAB-2) |
+| LAB-2 | 👉 [Open LAB-2](./LAB-2/LAB2.md) |
 
 ---
 
