@@ -29,7 +29,7 @@ The objective of this lab is to:
 A Flask project directory was created with application file, requirements file, and Dockerfile.
 
 **Execution Screenshot:**
-![Project Structure](../LAB-3/SCREENSHOTS/Screenshot%202026-02-07%20152231.png)
+![Project Structure](../LAB-3/SCREENSHOTS/1.png)
 
 ---
 
@@ -38,7 +38,7 @@ A Flask project directory was created with application file, requirements file, 
 The Flask application was written with a root route serving an HTML page containing lab details.
 
 **Execution Screenshot:**
-![Flask App Code](../LAB-3/SCREENSHOTS/Screenshot%202026-02-07%20152603.png)
+![Flask App Code](../LAB-3/SCREENSHOTS/2.png)
 
 ---
 
@@ -47,7 +47,7 @@ The Flask application was written with a root route serving an HTML page contain
 The dependency file was created specifying Flask version.
 
 **Execution Screenshot:**
-![Requirements File](../LAB-3/SCREENSHOTS/Screenshot%202026-02-07%20152624.png)
+![Requirements File](../LAB-3/SCREENSHOTS/3.png)
 
 ---
 
@@ -56,7 +56,7 @@ The dependency file was created specifying Flask version.
 A Dockerfile was created using Python 3.9 slim image with working directory, copy steps, dependency installation, port exposure, and run command.
 
 **Execution Screenshot:**
-![Dockerfile](../LAB-3/SCREENSHOTS/Screenshot%202026-02-07%20153427.png)
+![Dockerfile](../LAB-3/SCREENSHOTS/4.png)
 
 ---
 
@@ -68,7 +68,7 @@ The Flask app was executed directly on the host system.
 `python app.py`
 
 **Execution Screenshot:**
-![Local Flask Run](../LAB-3/SCREENSHOTS/Screenshot%202026-02-07%20153434.png)
+![Local Flask Run](../LAB-3/SCREENSHOTS/5.png)
 
 ---
 
@@ -77,7 +77,7 @@ The Flask app was executed directly on the host system.
 The application output was verified in the browser and using curl.
 
 **Execution Screenshot:**
-![Localhost Output](../LAB-3/SCREENSHOTS/Screenshot%202026-02-07%20153445.png)
+![Localhost Output](../LAB-3/SCREENSHOTS/6.png)
 
 ---
 
@@ -89,7 +89,7 @@ Python slim image was pulled from Docker Hub.
 `docker pull python:3.9-slim`
 
 **Execution Screenshot:**
-![Docker Pull](../LAB-3/SCREENSHOTS/Screenshot%202026-02-07%20153550.png)
+![Docker Pull](../LAB-3/SCREENSHOTS/7.png)
 
 ---
 
@@ -101,7 +101,7 @@ A container was started and Flask was installed inside it. The application was c
 `docker run -it --name flask-container python:3.9-slim /bin/bash`
 
 **Execution Screenshot:**
-![Container Setup](../LAB-3/SCREENSHOTS/Screenshot%202026-02-07%20153758.png)
+![Container Setup](../LAB-3/SCREENSHOTS/8.png)
 
 ---
 
@@ -113,7 +113,7 @@ Running containers were checked using docker ps.
 `docker ps`
 
 **Execution Screenshot:**
-![Docker PS](../LAB-3/SCREENSHOTS/Screenshot%202026-02-07%20153928.png)
+![Docker PS](../LAB-3/SCREENSHOTS/9.png)
 
 ---
 
@@ -122,31 +122,20 @@ Running containers were checked using docker ps.
 The Flask app running inside the container was accessed through localhost port mapping.
 
 **Execution Screenshot:**
-![Container Localhost](../LAB-3/SCREENSHOTS/Screenshot%202026-02-07%20154017.png)
+![Container Localhost](../LAB-3/SCREENSHOTS/10.png)
 
 ---
 
-### Step 11: Stop Running Container
+### Step 11: Stop Running Container and Remove Container
 
-The running container was stopped.
+The running container was stopped and was removed from the system.
 
 **Command:**  
 `docker stop flask-container`
-
-**Execution Screenshot:**
-![Docker Stop](../LAB-3/SCREENSHOTS/Screenshot%202026-02-07%20154103.png)
-
----
-
-### Step 12: Remove Container
-
-The container was removed from the system.
-
-**Command:**  
 `docker rm flask-container`
 
 **Execution Screenshot:**
-![Docker Remove](../LAB-3/SCREENSHOTS/Screenshot%202026-02-07%20154130.png)
+![Docker Stop](../LAB-3/SCREENSHOTS/11.png)
 
 ---
 
