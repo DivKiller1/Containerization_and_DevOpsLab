@@ -44,8 +44,8 @@ To confirm the container is active and check the assigned status and ports, the 
 
 ### Step 4: Stop and Remove Container
 To manage the lifecycle, the container is stopped first and then removed using its ID.
-* **Stop Command:** `docker stop 5ee0a6fcf8b6` 
-* **Remove Command:** `docker rm 5ee0a6fcf8b6` 
+* **Stop Command:** `docker stop 432421f52b7b` 
+* **Remove Command:** `docker rm 432421f52b7b` 
 
 **Stop Screenshot:**
 ![Docker Stop](../LAB-2/SCREENSHOTS/4.png)
