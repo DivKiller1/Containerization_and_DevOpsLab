@@ -28,6 +28,8 @@
 | LAB-2 | 👉 [Open LAB-2](./LAB-2/Lab2.md) |
 | LAB-3 | 👉 [Open LAB-3(PART-1)](https://priyambad07.github.io/Containerization-devops/Lab-experiments/Lab3/) |
 |       | 👉 [Open LAB-3(PART-2)](./LAB-3/Lab3.md) |
+| LAB-4 | 👉 [Open LAB-4](./LAB-4/Lab4.md) |
+| LAB-5 | 👉 [Open LAB-5](./LAB-5/Lab5.md) |
 
 ---
 
