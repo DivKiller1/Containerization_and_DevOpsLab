@@ -23,7 +23,7 @@ docker ps
 
 📸 **Screenshot – nginx container running using docker run:**
 
-![docker run nginx](../Lab-6/SCREENSHOTS/Screenshot%2026-03-21%230232.png)
+![docker run nginx](../Lab-6/SCREENSHOTS/Screenshot%202026-03-21%20230232.png)
 
 📸 **Screenshot – browser output:**
 
