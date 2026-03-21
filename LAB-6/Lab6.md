@@ -23,11 +23,11 @@ docker ps
 
 📸 **Screenshot – nginx container running using docker run:**
 
-![docker run nginx](../Lab-6/SCREENSHOTS/Screenshot%20%202026-03-21%20%20230232.png)
+![docker run nginx](../LAB-6/SCREENSHOTS/Screenshot%202026-03-21%20230232.png)
 
 📸 **Screenshot – browser output:**
 
-![browser nginx](../Lab-6/SCREENSHOTS/Screenshot%202026-03-21%20230243.png)
+![browser nginx](../LAB-6/SCREENSHOTS/Screenshot%202026-03-21%20230243.png)
 
 ---
 
@@ -53,11 +53,11 @@ docker compose ps
 
 📸 **Screenshot – docker compose up output:**
 
-![compose up](../Lab-6/SCREENSHOTS/Screenshot%202026-03-21%20230355.png)
+![compose up](../LAB-6/SCREENSHOTS/Screenshot%202026-03-21%20230355.png)
 
 📸 **Screenshot – nginx running via compose:**
 
-![compose nginx](../Lab-6/SCREENSHOTS/Screenshot%202026-03-21%20230406.png)
+![compose nginx](../LAB-6/SCREENSHOTS/Screenshot%202026-03-21%20230406.png)
 
 ---
 
@@ -71,7 +71,7 @@ docker network create wp-net
 
 📸 **Screenshot – network created:**
 
-![network](../Lab-6/SCREENSHOTS/Screenshot%202026-03-21%20230415.png)
+![network](../LAB-6/SCREENSHOTS/Screenshot%202026-03-21%20230415.png)
 
 ```bash
 docker run -d \
@@ -84,7 +84,7 @@ docker run -d \
 
 📸 **Screenshot – MySQL container running:**
 
-![mysql](../Lab-6/SCREENSHOTS/Screenshot%202026-03-21%20230431.png)
+![mysql](../LAB-6/SCREENSHOTS/Screenshot%202026-03-21%20230431.png)
 
 ```bash
 docker run -d \
@@ -98,11 +98,11 @@ docker run -d \
 
 📸 **Screenshot – WordPress container running:**
 
-![wordpress](../Lab-6/SCREENSHOTS/Screenshot%202026-03-21%20230443.png)
+![wordpress](../LAB-6/SCREENSHOTS/Screenshot%202026-03-21%20230443.png)
 
 📸 **Screenshot – WordPress browser setup:**
 
-![wp browser](../Lab-6/SCREENSHOTS/Screenshot%202026-03-21%20230521.png)
+![wp browser](../LAB-6/SCREENSHOTS/Screenshot%202026-03-21%20230521.png)
 
 ---
 
@@ -140,11 +140,11 @@ docker compose up -d
 
 📸 **Screenshot – compose multi-container running:**
 
-![compose wp](../Lab-6/SCREENSHOTS/Screenshot%202026-03-21%20230555.png)
+![compose wp](../LAB-6/SCREENSHOTS/Screenshot%202026-03-21%20230555.png)
 
 📸 **Screenshot – WordPress via compose browser:**
 
-![compose wp browser](../Lab-6/SCREENSHOTS/Screenshot%202026-03-21%20230728.png)
+![compose wp browser](../LAB-6/SCREENSHOTS/Screenshot%202026-03-21%20230728.png)
 
 ---
 
@@ -174,7 +174,7 @@ docker compose ps
 
 📸 **Screenshot – conversion result:**
 
-![conversion](../Lab-6/SCREENSHOTS/Screenshot%202026-03-21%20230745.png)
+![conversion](../LAB-6/SCREENSHOTS/Screenshot%202026-03-21%20230745.png)
 
 ---
 
@@ -222,11 +222,11 @@ docker compose up -d
 
 📸 **Screenshot – services running with network:**
 
-![network services](../Lab-6/SCREENSHOTS/Screenshot%202026-03-21%20230800.png)
+![network services](../LAB-6/SCREENSHOTS/Screenshot%202026-03-21%20230800.png)
 
 📸 **Screenshot – volume created:**
 
-![volume](../Lab-6/SCREENSHOTS/Screenshot%202026-03-21%20230841.png)
+![volume](../LAB-6/SCREENSHOTS/Screenshot%202026-03-21%20230841.png)
 
 ---
 
@@ -255,7 +255,7 @@ docker compose up -d
 
 📸 **Screenshot – resource limits applied:**
 
-![limits](../Lab-6/SCREENSHOTS/Screenshot%202026-03-21%20230945.png)
+![limits](../LAB-6/SCREENSHOTS/Screenshot%202026-03-21%20230945.png)
 
 ---
 
@@ -263,11 +263,11 @@ docker compose up -d
 
 📸 **Screenshot – app.js created:**
 
-![app js](../Lab-6/SCREENSHOTS/Screenshot%202026-03-21%20231407.png)
+![app js](../LAB-6/SCREENSHOTS/Screenshot%202026-03-21%20231407.png)
 
 📸 **Screenshot – Dockerfile:**
 
-![dockerfile](../Lab-6/SCREENSHOTS/Screenshot%202026-03-21%20231541.png)
+![dockerfile](../LAB-6/SCREENSHOTS/Screenshot%202026-03-21%20231541.png)
 
 ```bash
 docker compose up --build -d
@@ -275,11 +275,11 @@ docker compose up --build -d
 
 📸 **Screenshot – build process:**
 
-![build](../Lab-6/SCREENSHOTS/Screenshot%202026-03-21%20231557.png)
+![build](../LAB-6/SCREENSHOTS/Screenshot%202026-03-21%20231557.png)
 
 📸 **Screenshot – node app running:**
 
-![node run](../Lab-6/SCREENSHOTS/Screenshot%202026-03-21%20231657.png)
+![node run](../LAB-6/SCREENSHOTS/Screenshot%202026-03-21%20231657.png)
 
 ---
 
@@ -292,7 +292,7 @@ cd wp-compose-lab
 
 📸 **Screenshot – directory setup:**
 
-![dir](../Lab-6/SCREENSHOTS/Screenshot%202026-03-21%20231704.png)
+![dir](../LAB-6/SCREENSHOTS/Screenshot%202026-03-21%20231704.png)
 
 ```bash
 docker compose up -d
@@ -300,15 +300,15 @@ docker compose up -d
 
 📸 **Screenshot – final containers running:**
 
-![final containers](../Lab-6/SCREENSHOTS/Screenshot%202026-03-21%20231728.png)
+![final containers](../LAB-6/SCREENSHOTS/Screenshot%202026-03-21%20231728.png)
 
 📸 **Screenshot – WordPress final UI:**
 
-![final wp](../Lab-6/SCREENSHOTS/Screenshot%202026-03-21%20231746.png)
+![final wp](../LAB-6/SCREENSHOTS/Screenshot%202026-03-21%20231746.png)
 
 📸 **Screenshot – volumes list:**
 
-![volumes](../Lab-6/SCREENSHOTS/Screenshot%202026-03-21%20231834.png)
+![volumes](../LAB-6/SCREENSHOTS/Screenshot%202026-03-21%20231834.png)
 
 ---
 
