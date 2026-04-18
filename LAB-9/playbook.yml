@@ -1,0 +1,19 @@
+---
+- name: Configure servers
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Update apt packages
+      apt:
+        update_cache: yes
+
+    - name: Install packages
+      apt:
+        name: ["vim", "htop", "wget"]
+        state: present
+
+    - name: Create test file
+      copy:
+        dest: /root/ansible_test.txt
+        content: "Configured by Ansible on {{ inventory_hostname }}"

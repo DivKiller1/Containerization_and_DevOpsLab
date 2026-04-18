@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  limited-app:
+    image: nginx:alpine
+    container_name: limited-app
+    ports:
+      - "9000:9000"
+    restart: always
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+          cpus: "0.5"
