@@ -34,6 +34,8 @@
 | LAB-7 | 👉 [Open LAB-7](./LAB-7/Lab7.md) |
 | LAB-9 | 👉 [Open LAB-9](./LAB-9/Lab9.md) |
 | LAB-10 | 👉 [Open LAB-10](./LAB-10/Lab10.md) |
+| LAB-11 | 👉 [Open LAB-11](./LAB-11/Lab11.md) |
+| LAB-12 | 👉 [Open LAB-12](./LAB-12/Lab12.md) |
 ---
 
 
